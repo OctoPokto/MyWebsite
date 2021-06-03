@@ -1,7 +1,22 @@
-.container {
-  background-color: aliceblue;
+body {
+  text-align: center;
+}
+h1 {
+  color: gray;
 }
 
-h1 {
-  color: aqua;
+.container {
+  background-color: lightcoral;
+  border: solid;
+  border-color: black;
+}
+.row {
+  background-color: lightsalmon;
+  border: solid;
+  border-color: black;
+}
+.col {
+  background-color: lightpink;
+  border: solid;
+  border-color: black;
 }
