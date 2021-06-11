@@ -14,35 +14,41 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Anders' Portfolio</a>
+            <a class="navbar-brand" href="#">
+                <img src="img/AndersPortefolio.gif" alt="">
+            </a>
         </div>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="#">Home</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="projects.html">Projects</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a href="aboutme.html">About me</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About me</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <!--Portfolio video-->
-    <div class="container py-3 bg-primary">
-        <h1>Portfolio video here</h1>
-        <h2>Hey again!</h2>
+    <div class="container p-0">
+        <div class="col ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/pu_5Up0wXMg" title="Showreel 2020"
+            frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 
     <!--Introduction text-->
-    <div class="container py-5 bg-secondary">
+    <div class="container py-3 bg-secondary">
         <h1>Hi there!</h1>
         <h3>My name is Anders.</h3>
         <p>
@@ -54,7 +60,7 @@
     <div class="container py-5">
         <div class="row py-3">
             <div class="col-4">
-                <div class="thumbnail">
+                <div class="thumbnail img-thumbnail">
                     <img class="thumbnail-img" src="img/Morkredd.png" alt="">
                     <div class="thumbnail-overlay thumbnail-overlay-blur">
                         <div class="thumbnail-title">
@@ -122,6 +128,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container py-3">
+        
     </div>
     
 <script src="js/bootstrap.bundle.js"></script>
