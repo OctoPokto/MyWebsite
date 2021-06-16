@@ -12,7 +12,8 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
-.video {
+.project-thumbnails {
+  background-color: #d3fc7e;
 }
 .introduction {
   font-size: large;
@@ -61,4 +62,7 @@ h3 {
 .thumbnail-text {
   font-size: medium;
   margin-top: 0.25rem;
+}
+.carousel-inner > .item {
+  height: 720px;
 }
