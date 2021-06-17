@@ -1,5 +1,5 @@
 body {
-  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   color: rgb(46, 46, 46);
@@ -17,6 +17,7 @@ h3 {
 }
 .introduction {
   font-size: large;
+  text-align: center;
 }
 .thumbnail {
   position: relative;
@@ -63,6 +64,9 @@ h3 {
   font-size: medium;
   margin-top: 0.25rem;
 }
-.carousel-inner > .item {
-  height: 720px;
+.carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
 }
