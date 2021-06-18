@@ -13,6 +13,11 @@ h3 {
 }
 
 /*Index*/
+.btn-floating {
+  border-radius: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
 .project-thumbnails {
   background-color: #d3fc7e;
 }
