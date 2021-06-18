@@ -11,6 +11,8 @@ h2 {
 h3 {
   font-family: "Roboto", sans-serif;
 }
+hr {
+}
 
 /*Index*/
 .project-thumbnails {
@@ -77,4 +79,11 @@ h3 {
 /*About me*/
 .profile-picture {
   width: 20%;
+}
+.info-borders {
+  border-top: solid;
+  border-left: solid;
+}
+.date {
+  text-align: end;
 }
