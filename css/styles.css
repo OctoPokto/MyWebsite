@@ -12,6 +12,7 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+/*Index*/
 .project-thumbnails {
   background-color: #d3fc7e;
 }
@@ -69,4 +70,11 @@ h3 {
   object-position: center;
   height: 50vh;
   overflow: hidden;
+}
+
+/*Projects*/
+
+/*About me*/
+.profile-picture {
+  width: 20%;
 }
