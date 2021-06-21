@@ -71,7 +71,7 @@ h3 {
   margin-top: 0.25rem;
 }
 .carousel-item img {
-  object-fit: cover;
+  object-fit: scale-down;
   object-position: center;
   height: 50vh;
   overflow: hidden;
