@@ -69,6 +69,7 @@ h3 {
 .thumbnail-text {
   font-size: medium;
   margin-top: 0.25rem;
+  text-align: center;
 }
 .carousel-item img {
   object-fit: scale-down;
