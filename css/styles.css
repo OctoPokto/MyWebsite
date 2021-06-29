@@ -79,7 +79,9 @@ h3 {
 }
 
 /*Projects*/
-
+.project {
+  margin: 3rem auto;
+}
 /*About me*/
 .profile-picture {
   width: 20%;
