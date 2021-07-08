@@ -92,4 +92,5 @@ h3 {
 }
 .date {
   text-align: end;
+  word-wrap: break-word;
 }
