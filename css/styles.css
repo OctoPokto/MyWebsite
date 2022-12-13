@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #fbf5e9;
 }
 h1 {
   color: rgb(46, 46, 46);
@@ -19,7 +20,7 @@ h3 {
   padding-right: 12px;
 }
 .project-thumbnails {
-  background-color: #d3fc7e;
+  background-color: #fff08e;
 }
 .introduction {
   font-size: large;
