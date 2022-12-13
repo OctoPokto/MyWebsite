@@ -91,7 +91,7 @@ h3 {
 }
 /*About me*/
 .profile-picture {
-  width: 20%;
+  margin-left: 0%;
 }
 .info-borders {
   border-top: solid;
