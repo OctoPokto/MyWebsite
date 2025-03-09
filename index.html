@@ -1,182 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito&family=Roboto&display=swap"
-    rel="stylesheet" />
+    <title>Anders' Portfolio</title>
+  </head>
 
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-    crossorigin="anonymous"
-  />
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand mb-0 h1" href="index.html">
+            <img src="img/AndersPortefolio.gif" alt="" />
+          </a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#burger-collapse"
+            aria-controls="burger-collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="burger-collapse">
+          <a
+            class="btn btn-primary"
+            href="https://bsky.app/profile/octopokto.bsky.social"
+            role="button"
+            >BlueSky</a
+          >
+          <a
+            class="btn btn-lg btn-floating mx-1"
+            href="https://www.linkedin.com/in/anders-findal-j%C3%B8rgensen-877677111/"
+            style="background-color: #0a66c2"
+            role="button"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="20"
+              fill="white"
+              class="bi bi-linkedin"
+              viewBox="0 0 16 20"
+            >
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+              />
+            </svg>
+          </a>
 
-  <title>Anders' Portfolio</title>
-</head>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="pattern-dots-md py-3">
+      <div class="container py-3 bg-warning rounded-3">
+        <div class="row justify-content-center align-items-center">
+          <div
+            id="PublishedGames"
+            class="carousel slide"
+            data-bs-ride="pause"
+            data-bs-wrap="false"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-bs-target="#PublishedGames"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="First slide"
+              ></li>
+              <li
+                data-bs-target="#PublishedGames"
+                data-bs-slide-to="1"
+                aria-label="Second slide"
+              ></li>
+              <li
+                data-bs-target="#PublishedGames"
+                data-bs-slide-to="2"
+                aria-label="Third slide"
+              ></li>
+            </ol>
 
-<body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-light bg-warning">
-      <div class="container-fluid">
-        <a class="navbar-brand mb-0 h1" href="index.html">
-          <img src="img/AndersPortefolio.gif" alt="" />
-        </a>
-        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#burger-collapse" aria-controls="burger-collapse" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse" id="burger-collapse">
-        <a class="btn btn-lg btn-floating mx-1" href="https://twitter.com/OctoPokto" style="background-color: #55acee"
-          role="button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-twitter"
-            viewBox="0 0 16 20">
-            <path
-              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-          </svg>
-        </a>
-        <a class="btn btn-lg btn-floating mx-1"
-          href="https://www.linkedin.com/in/anders-findal-j%C3%B8rgensen-877677111/" style="background-color: #0a66c2"
-          role="button">
-          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" fill="white" class="bi bi-linkedin"
-            viewBox="0 0 16 20">
-            <path
-              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-          </svg>
-        </a>
-
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="projects.html">Projects</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About me</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <!--Portfolio video-->
-    <div class="container py-3">
-      <div class="col ratio ratio-16x9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/C6CWz96BqUM" title="Never Give Up!"
-          frameborder="0" allow="encrypted-media;picture-in-picture; web-share" allowfullscreen></iframe>
-        allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <!--Introduction text-->
-    <div class="container py-3 introduction">
-      <h1>Hi there!</h1>
-      <h3>My name is Anders.</h3>
-      <p>
-        I hope you liked the showcase of the latest project I was a part of. I have joined every Global Game Jam since I
-        started making games, and this might be the coolest one I have ever worked on. You can find the project at <a
-          href="https://voicesfromthedark.itch.io/never-give-up">this link</a>. Want to know more about me? Go to the <a
-          href="aboutme.html">About me page</a>.
-        <br>
-        For more information about projects I have worked on, please click on the
-        thumbnails under. If you don't get sent to the right section, just scroll down.
-      </p>
-    </div>
-
-    <!--Project thumbnail section-->
-    <div class="project-thumbnails">
-      <div class="container py-4">
-        <div class="row py-3 justify-content-md-center gy-4">
-          <div class="col-lg-4 col-md-6">
-            <a href="projects.html#Mørkredd-project">
-              <div class="thumbnail">
-                <img class="thumbnail-img" src="img/Mørkredd/Morkredd.png" alt="" />
-                <div class="thumbnail-overlay thumbnail-overlay-blur">
-                  <div class="thumbnail-title">
-                    <h2>Mørkredd</h2>
-                  </div>
-                  <div class="thumbnail-text">
-                    <h5>Junior Game Designer working on shaders</h5>
-                  </div>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <div class="videoWrapper">
+                  <iframe
+                    src="https://www.youtube.com/embed/CTsOH7vV0JY"
+                    title="Fruitbus | Available now | Steam Launch Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="projects.html#Robotany-project">
-              <div class="thumbnail">
-                <img class="thumbnail-img" src="img/Robotany/RobotanyPosterWide.png" alt="" />
-                <div class="thumbnail-overlay thumbnail-overlay-blur">
-                  <div class="thumbnail-title">
-                    <h2>School projects</h2>
-                  </div>
-                  <div class="thumbnail-text">
-                    <h5>Kristiania Game Design batchelor projects</h5>
-                  </div>
+              <div class="carousel-item">
+                <div class="videoWrapper">
+                  <iframe
+                    src="https://www.youtube.com/embed/dY-6rLU3CX0"
+                    title="Snufkin: Melody of Moominvalley | Available March 7th | Pre-Order Available!"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="projects.html#Gamejams-project">
-              <div class="thumbnail">
-                <img class="thumbnail-img" src="img/Gamejam/Home_1.2.1.png" alt="" />
-                <div class="thumbnail-overlay thumbnail-overlay-blur">
-                  <div class="thumbnail-title">
-                    <h2>Game Jams</h2>
-                  </div>
-                  <div class="thumbnail-text">
-                    <h5>Gamejam projects I have worked on</h5>
-                  </div>
+              <div class="carousel-item">
+                <div class="videoWrapper">
+                  <iframe
+                    src="https://www.youtube.com/embed/sReHqALFSOM"
+                    title="Mørkredd - Announcement Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
-            </a>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#PublishedGames"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#PublishedGames"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <a href="projects.html#Prototype-Projects">
-              <div class="thumbnail">
-                <img class="thumbnail-img" src="img/Prototypes/RobotanyV2.png" alt="" />
-                <div class="thumbnail-overlay thumbnail-overlay-blur">
-                  <div class="thumbnail-title">
-                    <h2>Prototypes</h2>
-                  </div>
-                  <div class="thumbnail-text">
-                    <h5>Personal projects to sharpen my skills</h5>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
+        </div>
 
+        <!--Introduction text-->
+        <div class="row p-3 introduction">
+          <h1>Hi there!</h1>
+          <h3>My name is Anders Findal Jørgensen</h3>
+          <p>
+            I'm a game developer from Norway. Please check out the games I have
+            worked on above!
+            <br />
+            Want to know more about the projects I have worked on, go to the
+            <a href="projects.html">Projects</a> page. Want to know more about
+            me? Go to the <a href="aboutme.html">About Me</a> page.
+          </p>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
 
-  <script
-  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-  crossorigin="anonymous"
-></script>
-
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-  crossorigin="anonymous"
-></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

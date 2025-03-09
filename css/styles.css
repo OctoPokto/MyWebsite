@@ -1,10 +1,14 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fbf5e9;
+  background-color: #fff4df;
+  height: 100%;
+  margin: 0%;
 }
 h1 {
   color: rgb(46, 46, 46);
   font-family: "Montserrat", sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 h2 {
   font-family: "Nunito", sans-serif;
@@ -88,20 +92,13 @@ h3 {
 /*Projects*/
 .project {
   margin: 3rem auto;
+  background-color: #edddaa;
 }
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+iframe {
+  aspect-ratio: 16 / 9;
   height: 100%;
-}
-/*About me*/
+  width: 100%;
+} /*About me*/
 .profile-picture {
   margin-left: 0%;
 }
