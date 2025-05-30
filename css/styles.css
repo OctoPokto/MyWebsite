@@ -1,28 +1,36 @@
+html {
+  font-size: 100%;
+}
 body {
-  background-color: #fff4df;
+  background-color: cornsilk;
   height: 100%;
   margin: 0%;
 }
 h1 {
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
-  font-size: 3cm;
-  text-shadow: -1px 1px #fff4df;
+  font-size: 6em;
+  text-shadow: -5px 0px cornsilk;
 }
 h2 {
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5cm;
+  font-size: 3em;
 }
 h3 {
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.25cm;
+  font-size: 2.5em;
 }
 p {
   color: #2e2e2e;
   font-family: "Roboto", sans-serif;
-  font-size: 0.75cm;
+  font-size: 1.5em;
+  margin: 1rem;
+}
+i {
+  white-space: nowrap;
+  display: inline;
 }
 .nav-link {
   white-space: nowrap;
@@ -95,9 +103,27 @@ p {
 
 /*Projects*/
 .od-card {
-  background-color: #ecd380;
-  box-shadow: -5px 5px #ffc107;
-  outline: 3px #edddaa;
+  background-color: rgb(253, 250, 237);
+  box-shadow: -15px 15px #ffc107;
+  outline: 5px solid cornsilk;
+  border-radius: 1rem;
+  padding: 2rem;
+  column-gap: 10px;
+}
+.pattern-vertical-lines-xl {
+  color: rgb(211, 207, 191);
+}
+.pattern {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: linear-gradient(
+    to right,
+    #161a6a,
+    #161a6a 5px,
+    #e5e5f7 5px,
+    #e5e5f7
+  );
+  background-size: 10px 100%;
 }
 iframe {
   aspect-ratio: 16 / 9;
