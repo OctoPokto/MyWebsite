@@ -1,33 +1,31 @@
 html {
-  font-size: 100%;
 }
 body {
   background-color: cornsilk;
   height: 100%;
   margin: 0%;
 }
+
 h1 {
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
-  font-size: 6em;
-  text-shadow: -5px 0px cornsilk;
+  text-shadow: -3px 0px cornsilk;
+  padding-left: 1rem;
 }
 h2 {
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
-  font-size: 3em;
 }
 h3 {
   color: #2e2e2e;
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5em;
 }
 p {
   color: #2e2e2e;
   font-family: "Roboto", sans-serif;
-  font-size: 1.5em;
-  margin: 1rem;
+  font-size: 1.5rem;
 }
+
 i {
   white-space: nowrap;
   display: inline;
