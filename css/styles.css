@@ -164,6 +164,28 @@ img {
 #InvertText .invert-text {
   color: #eedbc8;
 }
+.octagon {
+  rotate: 33deg;
+  width: 50px;
+  height: 50px;
+  aspect-ratio: 1;
+  --o: calc(50% * tan(-22.5deg));
+  clip-path: polygon(
+    var(--o) 50%,
+    50% var(--o),
+    calc(100% - var(--o)) 50%,
+    50% calc(100% - var(--o))
+  );
+  background: #3b8686;
+  margin-right: 1rem;
+}
+.octagon svg {
+  color: #eedbc8;
+  rotate: -33deg;
+  display: inline-block;
+  margin: auto;
+  justify-content: center;
+}
 
 .title {
   border-bottom: #548b71 solid;
