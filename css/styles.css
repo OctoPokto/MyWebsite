@@ -163,6 +163,13 @@ img {
 .od cite {
   color: #222034;
 }
+.od .nav-link {
+  font-family: "Monsterrat";
+  font-size: large;
+}
+.od .nav-link .active {
+  font-family: "Monsterrat", bold;
+}
 #InvertText .invert-text {
   color: #eedbc8;
 }
