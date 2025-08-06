@@ -13,20 +13,16 @@ body {
 }
 
 h1 {
-  color: #222034;
   font-family: "Eightgon", sans-serif;
   padding-left: 1rem;
 }
 h2 {
-  color: #222034;
   font-family: "Montserrat", sans-serif;
 }
 h3 {
-  color: #222034;
   font-family: "Montserrat", sans-serif;
 }
 p {
-  color: #222034;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
@@ -38,6 +34,9 @@ i {
 
 img {
   vertical-align: top;
+}
+.container {
+  color: light-dark(#222034, #eedbc8);
 }
 .nav-link {
   white-space: nowrap;
@@ -65,8 +64,8 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgb(46, 46, 46, 0.6);
-  color: whitesmoke;
+  background: null;
+  color: null;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -134,7 +133,6 @@ img {
   border-width: 0px;
   border-radius: 0%;
   padding: 2rem;
-  color: #222034;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
@@ -142,6 +140,9 @@ img {
   background-color: #548b71;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.invert-text-colour {
+  color: light-dark(#eedbc8, #222034);
 }
 .od .btn {
   background-color: #548b71;
