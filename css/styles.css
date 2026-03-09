@@ -11,6 +11,10 @@ body {
   font-family: Eightgon;
   src: url(../fonts/Eightgon-Regular.ttf);
 }
+@font-face {
+  font-family: AsteriskMono;
+  src: url(../fonts/AsteriskMono-YqJmq.ttf);
+}
 
 h1 {
   font-family: "Eightgon", sans-serif;
@@ -151,7 +155,7 @@ img {
 .od .btn {
   background-color: #548b71;
   color: #eedbc8;
-  font-family: "Montserrat", bold;
+  font-family: "AsteriskMono", bold;
   border: 0px;
   border-bottom: 6px solid #e0b24f;
   border-radius: 0px;
@@ -169,11 +173,12 @@ img {
   color: #222034;
 }
 .od .nav-link {
-  font-family: "Monsterrat";
+  font-family: "AsteriskMono", sans-serif;
+
   font-size: large;
 }
 .od .nav-link .active {
-  font-family: "Monsterrat", bold;
+  font-family: "AsteriskMono", bold;
 }
 #InvertText .invert-text {
   color: #eedbc8;
