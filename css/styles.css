@@ -250,6 +250,9 @@ blockquote p {
   color: #222034;
   padding: 1rem;
 }
+blockquote h2 {
+  padding: 1rem;
+}
 li {
   list-style: none;
 }
