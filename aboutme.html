@@ -1,394 +1,485 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  <link rel="stylesheet" href="css/styles.css" />
+    <title>About Me</title>
+    <link rel="icon" href="img/OctoDesignFavIcon.png" />
+  </head>
 
-  <title>About Me</title>
-  <link rel="icon" href="img/OctoDesignFavIcon.png" />
-</head>
+  <body>
+    <!--Navbar-->
+    <header>
+      <div class="container-fluid od p-0">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand mb-0 h1" href="index.html">
+              <img
+                src="img/AndersPortefolio.gif"
+                alt="Animated text that slides between Anders and Protefolio"
+                style="height: 50px"
+              />
+              <img
+                src="img/OctoDesignLogo.png"
+                alt=""
+                style="height: 50px; width: 50px"
+              />
+            </a>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#burger-collapse"
+              aria-controls="burger-collapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="burger-collapse">
+            <a
+              class="octagon"
+              href="https://bsky.app/profile/octopokto.bsky.social"
+              role="button"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#eedbc8"
+                viewbox="0 0 24 24"
+              >
+                <path
+                  d="M5.769,3.618C8.291,5.512,11.004,9.352,12,11.412c0.996-2.06,3.709-5.9,6.231-7.793C20.051,2.252,23,1.195,23,4.559	c0,0.672-0.385,5.644-0.611,6.451c-0.785,2.806-3.647,3.522-6.192,3.089c4.449,0.757,5.581,3.265,3.137,5.774	c-4.643,4.764-6.672-1.195-7.193-2.722c-0.095-0.28-0.14-0.411-0.14-0.3c-0.001-0.112-0.045,0.019-0.14,0.3	c-0.521,1.527-2.55,7.486-7.193,2.722c-2.445-2.509-1.313-5.017,3.137-5.774c-2.546,0.433-5.407-0.282-6.192-3.089	C1.385,10.203,1,5.231,1,4.559C1,1.195,3.949,2.252,5.769,3.618L5.769,3.618z"
+                /></svg
+            ></a>
+            <a
+              class="octagon"
+              href="https://www.linkedin.com/in/anders-findal-j%C3%B8rgensen-877677111/"
+              role="button"
+              iewbox="0 0 20 20"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 30 30"
+                fill="#eedbc8"
+              >
+                <path
+                  d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"
+                />
+              </svg>
+            </a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="aboutme.html">About me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <!--Navbar-->
-  <header>
-    <div class="container-fluid od p-0">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand mb-0 h1" href="index.html">
-            <img src="img/AndersPortefolio.gif" alt="Animated text that slides between Anders and Protefolio"
-              style="height: 50px" />
-            <img src="img/OctoDesignLogo.png" alt="" style="height: 50px; width: 50px" />
-          </a>
-          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#burger-collapse" aria-controls="burger-collapse" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="burger-collapse">
-          <a class="octagon" href="https://bsky.app/profile/octopokto.bsky.social" role="button">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#eedbc8" viewbox="0 0 24 24">
-              <path
-                d="M5.769,3.618C8.291,5.512,11.004,9.352,12,11.412c0.996-2.06,3.709-5.9,6.231-7.793C20.051,2.252,23,1.195,23,4.559	c0,0.672-0.385,5.644-0.611,6.451c-0.785,2.806-3.647,3.522-6.192,3.089c4.449,0.757,5.581,3.265,3.137,5.774	c-4.643,4.764-6.672-1.195-7.193-2.722c-0.095-0.28-0.14-0.411-0.14-0.3c-0.001-0.112-0.045,0.019-0.14,0.3	c-0.521,1.527-2.55,7.486-7.193,2.722c-2.445-2.509-1.313-5.017,3.137-5.774c-2.546,0.433-5.407-0.282-6.192-3.089	C1.385,10.203,1,5.231,1,4.559C1,1.195,3.949,2.252,5.769,3.618L5.769,3.618z" />
-            </svg></a>
-          <a class="octagon" href="https://www.linkedin.com/in/anders-findal-j%C3%B8rgensen-877677111/" role="button"
-            iewbox="0 0 20 20">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="#eedbc8">
-              <path
-                d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z" />
-            </svg>
-          </a>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="aboutme.html">About me</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
+    <main>
+      <div class="container-md">
+        <div class="row py-3 justify-content-center align-items-center">
+          <div class="col-md-3 profile-picture">
+            <img
+              class="img-fluid"
+              src="img/Portrait.jpg"
+              alt="Picture of a very handsome man"
+            />
+          </div>
+          <div class="col-md-9">
+            <h1 class="title">Anders Findal Jørgensen</h1>
 
-  <main>
-    <div class="container-md">
-      <div class="row py-3 justify-content-center align-items-center">
-        <div class="col-md-3 profile-picture">
-          <img class="img-fluid" src="img/Portrait.jpg" alt="Picture of a very handsome man" />
-        </div>
-        <div class="col-md-9">
-          <h1 class="title">Anders Findal Jørgensen</h1>
-
-          <p>
-            I am a <ins id="currentAge"></ins>-year-old game designer from
-            Norway. I have worked on some cool projects like Mørkredd,
-            Snufkin: Melody of Moominvalley and Fruitbus. I have the most
-            experience with being a tester and QA specialist. I am looking to
-            pivot into a design position, and I'm actively looking for such an
-            opportunity.
-          </p>
-          <br />
-          <p>
-            I get praise for my diligence in any given task and take pride in
-            that. I like to join game jams and test my design skills. I dabble
-            in programming, art and sound design. Designing a game is about
-            creating a cohesive whole so I try to understand how to make a
-            mechanic, visual style or leitmotif when taking ideas to others.
-          </p>
-          <p>
-            You can reach me at Anders@octodesign.no <br />
-            or any of my social media links.
-          </p>
+            <p>
+              I am a <ins id="currentAge"></ins>-year-old game designer from
+              Norway. I have worked on some cool projects like Mørkredd,
+              Snufkin: Melody of Moominvalley and Fruitbus. I have the most
+              experience with being a tester and QA specialist. I am looking to
+              pivot into a design position, and I'm actively looking for such an
+              opportunity.
+            </p>
+            <h3>Motivation</h3>
+            <p>
+              I aspire to make things people enjoy. I aspire to be the best
+              person I can be. I am not some pillar of perfection and these
+              statements do not define my entire being. Nevertheless I strive to
+              achieve a fragment of joy from my ever moving goal.
+            </p>
+            <p>
+              My road to making games started with the question “If I were to do
+              something for the rest of my life, what would I do?”. Answering
+              this question as a 15 year old is no small task, but I have always
+              been a bit of a bargain bin philosopher. I eventually had an
+              eureka moment where I saw the creative and technical outlet that
+              is game development. It never really sunk in that I could actually
+              make games, it always seemed like this monumental thing on the
+              level of becoming an astronaut. So far in the stratosphere that it
+              was not even worth considering.
+            </p>
+            <p>
+              You can reach me at Anders@octodesign.no <br />
+              or any of my social media links.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container-md p-3 od-zone-teal invert-text-colour">
-      <div class="row justify-content-end">
-        <div class="col-9">
-          <h1>Experience</h1>
+      <div class="container-md p-3 od-zone-teal invert-text-colour">
+        <div class="row justify-content-end">
+          <div class="col-9">
+            <h1>Experience</h1>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-3 px-4 date">
-          <h3>Feb 2024-Jan 2025</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>Game Tester - Krillbite AS</h2>
-          <p>
-            I worked as a Game Tester on Krillbite's game “Fruitbus”. In
-            tandem with my testing work, I also made reports of community
-            testing events, guided idle hands in testing at the office and
-            community support after release.
-          </p>
-        </div>
+        <div class="row">
+          <div class="col-3 px-4 date">
+            <h3>Feb 2026 - Continuing</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Practical Work Training - Rubarb AS</h2>
+            <p>
+              I have a mentor in Rubarb that teaches me about freelancing and
+              game development. Through this arrangement I get to sit in an
+              office called Oslo Game Hub with a lot of talented game
+              developers.Having a mentor is very comforting. Being able to go to
+              a person who has experience in your field and is willing to help
+              is something I will never not be thankful for.
+            </p>
+          </div>
+          <div class="col-3 px-4 date">
+            <h3>Apr 2025 - Continuing</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>QA Services - Octodesign Jørgensen</h2>
+            <p>
+              Octodesign is my own company where I offer QA services for games.
+              You can see more about this service on my Services page. My
+              selling point is to be able to be a physical presence when working
+              on a game. This continual testing while a game is in development
+              eases stress around milestones and ensures an even flow of
+              progress.
+            </p>
+          </div>
 
-        <!--Hyper Games Game Tester-->
-        <div class="col-3 px-4 date">
-          <h3>Sep 2023-Des 2023</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>Game Tester - Hyper Games AS</h2>
-          <p>
-            Working as a Tester on Hyper Games news title “Snufkin: Melody of
-            Moominvalley”. Completed ISTQB Foundation level testing
-            certificate exam and passed.
-          </p>
-        </div>
+          <!--Krillbite Game Tester-->
+          <div class="col-3 px-4 date">
+            <h3>Feb 2024-Jan 2025</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Game Tester - Krillbite AS</h2>
+            <p>
+              I worked for Krillbite on their newest game “Fruitbus” as their
+              in-house tester throughout production and post-release. Building
+              upon the experience I got from my previous experiences as a tester
+              I learned a lot from working on this game. having way more time to
+              test out techniques on this project I involved myself with
+              monitoring the state of the project from day to day and regularly
+              updating the team on the status of major and minor bugs.
+            </p>
+          </div>
 
-        <!--Funkweb-->
-        <div class="col-3 px-4 date">
-          <h3>Feb 2021-Aug 2023</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>Participant - Funkweb AS</h2>
-          <p>
-            Worked on self defined projects to better my prospects in the job
-            market. Developed this website, learning HTML and CSS with the
-            Bootstrap framework in the process. Made an internal game with
-            RenPy for Funkweb that guides new participants through the office.
-            Did design and planning for participant started project in Unity.
-            Designing and programming own project based on procedural plant
-            structures with Unity.
-          </p>
-        </div>
-        <!--Bachelor Hyper Games-->
-        <div class="col-3 px-4 date">
-          <h3>Jan 2020-May 2020</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>Junior Game Designer - Hyper Games AS</h2>
-          <p>
-            Worked at Hyper games as a Junior Game Designer on "Mørkredd"
-            while writing my bachelor thesis project on techniques to make
-            games feel good. Learned to make basic shaders with shader-graph
-            like water, swaying trees/grass and experimented a lot.
-          </p>
-        </div>
-        <!--QA Hyper Games-->
-        <div class="col-3 px-4 date">
-          <h3>Jan 2019-Feb 2019</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>QA Tester - Hyper Games AS</h2>
-          <p>
-            “Alfie Atkins: Smoothie” - Testing under development before being
-            published on the Apple Store. “Eggggg: The Platform Puker” -
-            Testing for the port to Nintendo Switch and Steam.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--Education-->
-    <div class="container-md p-3">
-      <div class="row justify-content-end">
-        <div class="col-9">
-          <h1>Education</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 px-4 date">
-          <h3>Aug 2017-Jun 2020</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>Høyskolen Kristiania - Game Design Bachelor</h2>
-          <p>
-            I have comprehensive schooling in Gamedesign and its satellite
-            disciplines, such as Level Design and System Design. The degree
-            also covers the broader spectrum of disciplines in the industry to
-            gain the knowledge to deliver games and sell them. These were
-            programming, marketing, project management, pre-production and
-            prototyping.
-          </p>
-        </div>
-      </div>
-    </div>
+          <!--Hyper Games Game Tester-->
+          <div class="col-3 px-4 date">
+            <h3>Sep 2023-Des 2023</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Game Tester - Hyper Games AS</h2>
+            <p>
+              I worked as a Tester for Hyper Games' newest title “Snufkin:
+              Melody of Moominvalley”. While working on the game I also got
+              certified as a ISTQB Foundation level tester. Knowing proper
+              testing methodology has been very helpful in gaining confidence
+              and proficiency in testing.
+            </p>
+          </div>
 
-    <!--Volunteer Work-->
-    <div id="#InvertText" class="container-md p-3 od-zone-teal invert-text-colour">
-      <div class="row justify-content-end">
-        <div class="col-9">
-          <h1>Volunteer Work</h1>
+          <!--Funkweb-->
+          <div class="col-3 px-4 date">
+            <h3>Feb 2021-Aug 2023</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Participant - Funkweb AS</h2>
+            <p>
+              Worked on self defined projects to better my prospects in the job
+              market. Developed this website, learning HTML and CSS with the
+              Bootstrap framework in the process. Made an internal game with
+              RenPy for Funkweb that guides new participants through the office.
+              Did design and planning for participant started project in Unity.
+              Designing and programming own project based on procedural plant
+              structures with Unity.
+            </p>
+          </div>
+          <!--Bachelor Hyper Games-->
+          <div class="col-3 px-4 date">
+            <h3>Jan 2020-May 2020</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Junior Game Designer - Hyper Games AS</h2>
+            <p>
+              Worked at Hyper games as a Junior Game Designer on "Mørkredd"
+              while writing my bachelor thesis project on techniques to make
+              games feel good. Learned to make basic shaders with shader-graph
+              like water, swaying trees/grass and experimented a lot.
+            </p>
+          </div>
+          <!--QA Hyper Games-->
+          <div class="col-3 px-4 date">
+            <h3>Jan 2019-Feb 2019</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>QA Tester - Hyper Games AS</h2>
+            <p>
+              “Alfie Atkins: Smoothie” - Testing under development before being
+              published on the Apple Store. “Eggggg: The Platform Puker” -
+              Testing for the port to Nintendo Switch and Steam.
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <!--Game Jams-->
-        <div class="col-3 px-4 date">
-          <h3>Jan 2019 - Continuing</h3>
+      <!--Education-->
+      <div class="container-md p-3">
+        <div class="row justify-content-end">
+          <div class="col-9">
+            <h1>Education</h1>
+          </div>
         </div>
-        <div class="col-9 info-borders">
-          <h2>Site Organizer for Global Game Jam - SpillKlimpring</h2>
-          <p>
-            I am the main site organizer of Global Game Jam Oslo. My
-            responsibility is to manage ticket sales and distribution of money
-            to the things that need to be in place for the jam to run.
-            Location, food, presentation, etc. A lot of things need to come
-            together on a small budget in a short amount of time. It's hard
-            work, but so rewarding to see all the games people make. I feel
-            strongly that events like this are what drives the game
-            development community forward in Oslo and are sorely needed. This
-            is a thing that NEEDS to exist for the betterment of the whole
-            industry. I have no illusions of this being the only option or
-            that it needs to be me that does this, but building culture in a
-            society enriches it beyond what it is in all scenarios.
-          </p>
-        </div>
-        <div class="col-3 px-4 date">
-          <h3>Feb 2023 - Continuing</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>Participant - Bibliogames</h2>
-          <p>
-            Bibliogames is a volunteer organisation whose mission is to
-            educate librarians and people in general about games. Many
-            libraries in Norway don't have access to the kind of equipment
-            games require. This is where Bibliogames comes in and gives kids
-            and adults alike the opportunity to see games as more than just
-            Fortnite and Minecraft. There is beauty and knowledge in games.
-          </p>
-        </div>
-      </div>
-      <!--Bibliogames-->
-    </div>
-
-    <!--Tools-->
-    <div class="container-md p-3">
-      <div class="row justify-content-end">
-        <div class="col-9">
-          <h1>Skills</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 px-4 date">
-          <h3>Game dev</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>Godot</h2>
-          <p>
-            Godot has quickly become my favourite game engine. It is really
-            enjoyable to prototype in and I don't have to worry about the
-            whims of a board of directors suddenly deciding that they need
-            another yacht.
-          </p>
-          <h2>Unity</h2>
-          <p>
-            I have the most experience with using Unity when crating games.
-            All of my game design, programming, system design and shader
-            knowledge I have learned while using Unity.
-          </p>
-          <h2>Unreal</h2>
-          <p>
-            Most of my experience with Unreal is in Level Design and basic
-            blueprint work. You can see examples of my Level Design in the
-            Cyberpunky project.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 px-4 date">
-          <h3>Art</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>Aseprite</h2>
-          <p>
-            I have used a few pixel art focused programs, and have pretty much
-            landed on Aseprite as my default for pixel art asset creation and
-            animation.
-          </p>
-          <h2>Clip Studio Paint</h2>
-          <p>
-            Recently picked up CSP and I'm really enjoying drawin in it.
-            Planning on testing out the animation features and maybe make some
-            small comics.
-          </p>
-          <h2>Blender</h2>
-          <p>
-            I've made the donut and some simpler models for my prototype
-            projects. I want to do more.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-3 px-4 date">
-          <h3>Programming</h3>
-        </div>
-        <div class="col-9 info-borders">
-          <h2>C# with Unity</h2>
-          <p>
-            I have basic to intermediate knowledge of C#. I can solve most
-            problems with time, but I need more experience to get more
-            comfortable with programming. I have taken a course in C# to sure
-            up my knowledge about the programming language.
-          </p>
-          <h2>HTML CSS and Bootstrap</h2>
-          <p>
-            During quarantine I learned how to make websites. I'm pretty proud
-            of making this website by myself, it's been a fun project. This
-            website is purely HTML, CSS and Bootstrap. So my knowledge about
-            how to make websites is limited to those fields.
-          </p>
+        <div class="row">
+          <div class="col-3 px-4 date">
+            <h3>Aug 2017-Jun 2020</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Høyskolen Kristiania - Game Design Bachelor</h2>
+            <p>
+              I have comprehensive schooling in Gamedesign and its satellite
+              disciplines, such as Level Design and System Design. The degree
+              also covers the broader spectrum of disciplines in the industry to
+              gain the knowledge to deliver games and sell them. These were
+              programming, marketing, project management, pre-production and
+              prototyping.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-3 px-4 date">
-          <h3>Interests</h3>
+      <!--Volunteer Work-->
+      <div
+        id="#InvertText"
+        class="container-md p-3 od-zone-teal invert-text-colour"
+      >
+        <div class="row justify-content-end">
+          <div class="col-9">
+            <h1>Volunteer Work</h1>
+          </div>
         </div>
-        <div class="col-9 info-borders">
-          <h2>Cooking</h2>
-          <p>
-            I enjoy cooking. Due to the limitations of small apartments in
-            Oslo, I dont have an oven, to my ever burning frustration. So I
-            mostly cook things that fit in a pot or frying pan. A lot of Asian
-            food is primarily prepared in a pan or pot, so my repertoire is
-            heavily weighted towards that.
-          </p>
-          <h2>Custom keyboards</h2>
-          <p>
-            2020 was a really boring year so I got into making and collecting
-            custom keybards. On my free time I help the keyboard designers
-            <a href="https://protozoa.studio/collections">Protozoa Studio</a>
-            with questions on their discord. You can find some pictures on my
-            twitter (Press the twitter icon at the top of this website).
-          </p>
-          <h2>Building computers</h2>
-          <p>
-            I got into building my, and my friends computers after my dad and
-            I built one in my early teens. Since then, whenever I get the
-            chance, I really get into finding the parts and making them look
-            as good as I can.
-          </p>
-          <h2>Space and Plants</h2>
-          <p>
-            Space has always fascinated me, while plants are a newer interest.
-            I like learning facts about these things in a very casual and
-            unhurried manner. I read many sci-fi books in my free time, and Im
-            making a game about growing plants.
-          </p>
+        <div class="row">
+          <!--Game Jams-->
+          <div class="col-3 px-4 date">
+            <h3>Jan 2019 - Continuing</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Site Organizer for Global Game Jam - SpillKlimpring</h2>
+            <p>
+              I am the main site organizer of Global Game Jam Oslo. My
+              responsibility is to manage ticket sales and distribution of money
+              to the things that need to be in place for the jam to run.
+              Location, food, presentation, etc. A lot of things need to come
+              together on a small budget in a short amount of time. It's hard
+              work, but so rewarding to see all the games people make. I feel
+              strongly that events like this are what drives the game
+              development community forward in Oslo and are sorely needed. This
+              is a thing that NEEDS to exist for the betterment of the whole
+              industry. I have no illusions of this being the only option or
+              that it needs to be me that does this, but building culture in a
+              society enriches it beyond what it is in all scenarios.
+            </p>
+          </div>
+          <div class="col-3 px-4 date">
+            <h3>Feb 2023 - Continuing</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Participant - Bibliogames</h2>
+            <p>
+              Bibliogames is a volunteer organisation whose mission is to
+              educate librarians and people in general about games. Many
+              libraries in Norway don't have access to the kind of equipment
+              games require. This is where Bibliogames comes in and gives kids
+              and adults alike the opportunity to see games as more than just
+              Fortnite and Minecraft. There is beauty and knowledge in games.
+            </p>
+          </div>
+        </div>
+        <!--Bibliogames-->
+      </div>
+
+      <!--Tools-->
+      <div class="container-md p-3">
+        <div class="row justify-content-end">
+          <div class="col-9">
+            <h1>Skills</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 px-4 date">
+            <h3>Game dev</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Godot</h2>
+            <p>
+              Godot has quickly become my favourite game engine. It is really
+              enjoyable to prototype in and I don't have to worry about the
+              whims of a board of directors suddenly deciding that they need
+              another yacht.
+            </p>
+            <h2>Unity</h2>
+            <p>
+              I have the most experience with using Unity when crating games.
+              All of my game design, programming, system design and shader
+              knowledge I have learned while using Unity.
+            </p>
+            <h2>Unreal</h2>
+            <p>
+              Most of my experience with Unreal is in Level Design and basic
+              blueprint work. You can see examples of my Level Design in the
+              Cyberpunky project.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 px-4 date">
+            <h3>Art</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Aseprite</h2>
+            <p>
+              I have used a few pixel art focused programs, and have pretty much
+              landed on Aseprite as my default for pixel art asset creation and
+              animation.
+            </p>
+            <h2>Clip Studio Paint</h2>
+            <p>
+              Recently picked up CSP and I'm really enjoying drawin in it.
+              Planning on testing out the animation features and maybe make some
+              small comics.
+            </p>
+            <h2>Blender</h2>
+            <p>
+              I've made the donut and some simpler models for my prototype
+              projects. I want to do more.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 px-4 date">
+            <h3>Programming</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>C# with Unity</h2>
+            <p>
+              I have basic to intermediate knowledge of C#. I can solve most
+              problems with time, but I need more experience to get more
+              comfortable with programming. I have taken a course in C# to sure
+              up my knowledge about the programming language.
+            </p>
+            <h2>HTML CSS and Bootstrap</h2>
+            <p>
+              During quarantine I learned how to make websites. I'm pretty proud
+              of making this website by myself, it's been a fun project. This
+              website is purely HTML, CSS and Bootstrap. So my knowledge about
+              how to make websites is limited to those fields.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3 px-4 date">
+            <h3>Interests</h3>
+          </div>
+          <div class="col-9 info-borders">
+            <h2>Cooking</h2>
+            <p>
+              I enjoy cooking. Due to the limitations of small apartments in
+              Oslo, I dont have an oven, to my ever burning frustration. So I
+              mostly cook things that fit in a pot or frying pan. A lot of Asian
+              food is primarily prepared in a pan or pot, so my repertoire is
+              heavily weighted towards that.
+            </p>
+            <h2>Custom keyboards</h2>
+            <p>
+              2020 was a really boring year so I got into making and collecting
+              custom keybards. On my free time I help the keyboard designers
+              <a href="https://protozoa.studio/collections">Protozoa Studio</a>
+              with questions on their discord. You can find some pictures on my
+              twitter (Press the twitter icon at the top of this website).
+            </p>
+            <h2>Building computers</h2>
+            <p>
+              I got into building my, and my friends computers after my dad and
+              I built one in my early teens. Since then, whenever I get the
+              chance, I really get into finding the parts and making them look
+              as good as I can.
+            </p>
+            <h2>Space and Plants</h2>
+            <p>
+              Space has always fascinated me, while plants are a newer interest.
+              I like learning facts about these things in a very casual and
+              unhurried manner. I read many sci-fi books in my free time, and Im
+              making a game about growing plants.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
-<script>
-  let d = new Date("October 29, 1995 00:00:00");
-  let today = new Date();
-  let dyear = today.getFullYear() - d.getFullYear();
-  if (today.getMonth() < d.getMonth()) {
-    dyear--;
-  } else if (
-    today.getMonth() == d.getMonth() &&
-    today.getDate() < d.getDate()
-  ) {
-    dyear--;
-  }
-  document.getElementById("currentAge").innerHTML = dyear;
-</script>
+    </main>
+  </body>
+  <script>
+    let d = new Date("October 29, 1995 00:00:00");
+    let today = new Date();
+    let dyear = today.getFullYear() - d.getFullYear();
+    if (today.getMonth() < d.getMonth()) {
+      dyear--;
+    } else if (
+      today.getMonth() == d.getMonth() &&
+      today.getDate() < d.getDate()
+    ) {
+      dyear--;
+    }
+    document.getElementById("currentAge").innerHTML = dyear;
+  </script>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"
+  ></script>
 </html>
